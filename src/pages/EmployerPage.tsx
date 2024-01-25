@@ -1,9 +1,11 @@
 import Aside from "../components/Aside";
 import Button from "../components/Button";
+import Form from "../components/Form";
+import SignPageTemp from "../components/SignPageTemp";
 
 export default function EmployerPage() {
   return (
-    <div className="h-full grid grid-cols-[5.1fr_6fr] ">
+    <SignPageTemp >
       <Aside>
         <div className="flex flex-col justify-center h-[50%] gap-0.5 px-8 items-start">
           <h1 className="text-white lg:text-3xl text-lg lg:leading-[3rem] font-normal tracking-wide text-left">
@@ -18,7 +20,7 @@ export default function EmployerPage() {
         </div>
       </Aside>
 
-      <form className=" h-full flex py-10 pt-32 flex-col justify-center items-center gap-4 lg:gap-6 px-8 lg:px-16 text-[0.5rem]">
+      <Form>
         <div className="flex w-full gap-4">
           <input
             className="w-full border border-gray-300 rounded-xl p-2 px-4 lg:py-3"
@@ -85,7 +87,7 @@ export default function EmployerPage() {
             </Button>
           </p>
         </div>
-      </form>
-    </div>
+      </Form>
+    </SignPageTemp>
   );
 }

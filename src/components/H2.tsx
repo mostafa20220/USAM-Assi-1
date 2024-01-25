@@ -5,7 +5,7 @@ type H2Props = {
 
 export default function H2({style, children }: Readonly<H2Props>) {
   return (
-    <h2 className={`text-[var(--color-brand-primary)] text-2xl mb-8  ${style}`} >
+    <h2 className={`text-[var(--color-brand-primary)] text-2xl mb-8 px-2 md:mb-8  ${style}`} >
       {children}
     </h2>
   )

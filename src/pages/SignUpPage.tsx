@@ -1,9 +1,11 @@
 import Aside from "../components/Aside";
 import Button from "../components/Button";
+import Form from "../components/Form";
+import SignPageTemp from "../components/SignPageTemp";
 
 export default function SignUpPage() {
   return (
-    <div className="h-full grid grid-cols-[5.2fr_6fr] gap-x-4">
+    <SignPageTemp>
       <Aside>
       <div className="flex flex-col justify-center h-[50%] gap-0.5 px-8 items-start">
           <h1 className="text-white lg:text-3xl text-lg lg:leading-[3rem] font-normal tracking-wide text-left">
@@ -16,7 +18,7 @@ export default function SignUpPage() {
         </div>
       </Aside>
 
-      <form className=" h-full flex flex-col justify-center items-center gap-4 px-4 text-[0.5rem]">
+      <Form className=" h-full flex flex-col justify-center items-center gap-4 px-4 text-[0.5rem]">
         <div className="flex w-full gap-4">
           <input
             className="w-full border border-gray-300 rounded-full p-2 px-4"
@@ -75,7 +77,7 @@ export default function SignUpPage() {
             </Button>
           </p>
         </div>
-      </form>
-    </div>
+      </Form>
+    </SignPageTemp>
   );
 }

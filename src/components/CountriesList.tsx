@@ -9,7 +9,7 @@ export default function CountriesList({ title, children }: Readonly<CountriesLis
   return (
     <>
       <H2>{title}</H2>
-      <ul className="grid grid-cols-3 gap-y-8 px-8">
+      <ul className="grid grid-cols-3 gap-4 md:gap-y-8 px-8">
         {children} 
       </ul>
     </>

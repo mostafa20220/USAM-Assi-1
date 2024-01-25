@@ -3,9 +3,9 @@ import Logo from "./Logo";
 
 export default function Header() {
   return (
-    <header className="mb-32 p-8">
-      <nav className="flex items-center justify-between text-[var(--color-brand-primary)]">
-        <ul className="flex items-center space-x-4">
+    <header className="mb-16 md:mb-32 p-6">
+      <nav className="flex flex-col sm:flex-row items-center justify-between text-[var(--color-brand-primary)] gap-4 ">
+        <ul className="flex items-center space-x-4 md:space-x-4">
           <li>
             <Logo />
           </li>

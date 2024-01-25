@@ -9,7 +9,7 @@ export default function CompaniesList({ title, children }: Readonly<CompaniesPro
   return (
     <div>
       <H2>{title}</H2>
-      <ul className=" flex px-8 py-8 justify-around items-center bg-[var(--color-brand-primary)] gap-x-14">
+      <ul className=" grid grid-cols-2  md:flex md:flex-wrap px-8 py-8 justify-around items-center bg-[var(--color-brand-primary)] gap-14 gap-y-6 md:gap-y-14">
         {children} 
       </ul>
     </div>

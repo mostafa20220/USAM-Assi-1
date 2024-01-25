@@ -2,12 +2,12 @@ import Logo from "./Logo";
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-brand-primary)] text-white p-8 px-12">
-      <div className="grid grid-cols-4 gap-y-4 gap-x-8  border-stone-400 pb-4 border-b">
+    <footer className="bg-[var(--color-brand-primary)] text-white px-2 py-6 md:p-8 md:px-12">
+      <div className="grid grid-cols-4 gap-x-2 md:gap-y-4 md:gap-x-8  border-stone-400 pb-4 border-b">
         <Logo type="secondary" />
-        <div className="flex flex-col gap-2 items-start">
-          <h3 className="text-sm font-bold">Quick Links</h3>
-          <ul className="text-xs flex flex-col items-start gap-1.5 font-normal">
+        <div className="flex flex-col gap-1 md:gap-2 items-center sm:items-start">
+          <h3 className="md:text-sm font-bold">Quick Links</h3>
+          <ul className="md:text-xs flex flex-col items-start gap-1.5 font-normal">
             <li>
               <a href="#">About</a>
             </li>
@@ -20,7 +20,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <ul className="text-xs flex flex-col items-start justify-center gap-2 font-normal">
+        <ul className="md:text-xs flex flex-col items-center sm:items-start justify-center gap-2 font-normal">
           <li>
             <a href="#">Jobs in Egypt</a>
           </li>
@@ -29,10 +29,10 @@ export default function Footer() {
           </li>
         </ul>
 
-        <div className="flex flex-col gap-2 items-start ">
-          <h3 className="text-sm font-bold">Follow us</h3>
-          <ul className="text-sm flex items-start gap-4">
-            <li class="social-link">
+        <div className="flex flex-col gap-1 md:gap-2 items-center sm:items-start ">
+          <h3 className="md:text-sm font-bold">Follow us</h3>
+          <ul className="md:text-sm flex items-start gap-2 md:gap-4">
+            <li >
               <a href="#">
                 <ion-icon class="social-logo" name="logo-facebook"></ion-icon>
               </a>
@@ -44,13 +44,13 @@ export default function Footer() {
               </a>
             </li>
 
-            <li class="social-link">
+            <li >
               <a href="#">
                 <ion-icon class="social-logo" name="logo-twitter"></ion-icon>
               </a>
             </li>
           </ul>
-          <p className="text-xs">Copyright &copy; 2023 jobs</p>
+          <p className="md:text-xs">Copyright &copy; 2023 jobs</p>
         </div>
       </div>
     </footer>
