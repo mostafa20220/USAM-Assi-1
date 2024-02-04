@@ -14,11 +14,11 @@ export default function DashboardPage() {
           <input
             className={` px-4 py-3 w-full drop-shadow-lg  rounded-2xl `}
             type="search"
-            value={`Hello {userName}`}
+            value={`Hello Manar`}
           />
 
           <Button
-            className="absolute right-2 top-2  sm:px-2 sm:py-1  md:px-2 md:py-1  "
+            className="absolute right-1 top-1 sm:top-2 sm:right-2  sm:px-2 sm:py-1  md:px-2 md:py-1  "
             type="primary"
             to={""}
           >
@@ -26,7 +26,7 @@ export default function DashboardPage() {
           </Button>
         </section>
 
-        <section className="grid grid-cols-1  sm:grid-cols-[2fr_1fr] gap-4 w-full mb-10">
+        <section className="grid grid-cols-1  sm:grid-cols-[2fr_1fr] gap-12 sm:gap-4 w-full mb-10">
           <ActionBox
             title="Your Assistant"
             description="Once you add your jobs and receive candidates, your assistant will highlight the most potential candidates for you to check."

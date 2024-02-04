@@ -8,10 +8,10 @@ type LogoProps = {
 export default function Logo({ style, type = "primary" }: Readonly<LogoProps>) {
   return (
     <Button
-      className={`w-14 
+      className={`w-16  
     sm:w-20 
     mdd:w-32
-     h-auto flex items-start justify-center pr-2 ${style}`}
+     h-auto flex items-start justify-center pr-2  hover:bg-transparent ${style}`}
       type="secondary"
       to="/"
     >

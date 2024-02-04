@@ -20,12 +20,12 @@ export default function Button({
 
   const style =
     type === "primary"
-      ? "bg-[var(--color-brand-primary)] text-white px-2 py-1 md:px-4"
-      : "bg-[var(--color-brand-secondary)] px-0.5";
+      ? "bg-[var(--color-brand-primary)] hover:bg-green-900 text-white px-2 py-1 md:px-4"
+      : "bg-[var(--color-brand-secondary)] hover:bg-gray-100  px-0.5";
 
   return (
     <NavLink
-      className={`inline-block rounded-3xl  ${style} ${paddingStyle} ${className} `}
+      className={`inline-block transition-all rounded-3xl  hover:rounded-full py-2 px-2  ${style} ${paddingStyle} ${className} `}
       to={to}
     >
       {children}

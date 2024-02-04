@@ -7,7 +7,7 @@ export default function SignUpPage() {
   return (
     <SignPageTemp>
       <Aside>
-      <div className="flex flex-col justify-center h-[50%] gap-0.5 px-8 items-start">
+        <div className="flex flex-col justify-center h-[50%] gap-0.5 px-8 items-start">
           <h1 className="text-white lg:text-3xl text-lg lg:leading-[3rem] font-normal tracking-wide text-left">
             Create an Account to Find Job Faster
           </h1>
@@ -18,7 +18,7 @@ export default function SignUpPage() {
         </div>
       </Aside>
 
-      <Form className=" h-full flex flex-col justify-center items-center gap-4 px-4 text-[0.5rem]">
+      <Form className="  flex flex-col justify-center items-center gap-4 px-4 text-[0.5rem]">
         <div className="flex w-full gap-4">
           <input
             className="w-full border border-gray-300 rounded-full p-2 px-4"
