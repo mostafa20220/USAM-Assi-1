@@ -19,7 +19,7 @@ export default function CVPage() {
           <div className="space-y-4">
             <ActionBox
               title="Manar Khaled"
-              icon="/public/add-logo-icon.png"
+              icon="/add-logo-icon.png"
               className=" sm:items-start "
               cv={true}
             >
@@ -95,7 +95,7 @@ export default function CVPage() {
                     Gender{" "}
                     <img
                       className="ml-1 w-2 h-2 inline-block"
-                      src="/public/down-icon.png"
+                      src="/down-icon.png"
                       alt="down-icon"
                     />
                   </p>
@@ -103,7 +103,7 @@ export default function CVPage() {
                     Nationality{" "}
                     <img
                       className="ml-1 w-2 h-2 inline-block"
-                      src="/public/down-icon.png"
+                      src="/down-icon.png"
                       alt="down-icon"
                     />
                   </p>
@@ -111,7 +111,7 @@ export default function CVPage() {
                     Residence country{" "}
                     <img
                       className="ml-1 w-2 h-2 inline-block"
-                      src="/public/down-icon.png"
+                      src="/down-icon.png"
                       alt="down-icon"
                     />
                   </p>
@@ -131,7 +131,7 @@ export default function CVPage() {
                     Job Level{" "}
                     <img
                       className="ml-1 w-2 h-2 inline-block"
-                      src="/public/down-icon.png"
+                      src="/down-icon.png"
                       alt="down-icon"
                     />{" "}
                   </p>
@@ -139,7 +139,7 @@ export default function CVPage() {
                     Job Location{" "}
                     <img
                       className="ml-1 w-2 h-2 inline-block"
-                      src="/public/down-icon.png"
+                      src="/down-icon.png"
                       alt="down-icon"
                     />
                   </p>

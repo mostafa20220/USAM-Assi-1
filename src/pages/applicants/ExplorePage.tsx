@@ -12,7 +12,7 @@ export default function ExplorePage() {
             <JobCard
               title="HR Administrative Assistant"
               companyName="Alqemam - QTech"
-              companyLogo="/public/company-5-logo-white-bg.png"
+              companyLogo="/company-5-logo-white-bg.png"
               location="Mansoura, Egypt"
               careerLevel="Entry"
               datePostedInDays={7}
@@ -22,7 +22,7 @@ export default function ExplorePage() {
             <JobCard
               title="HR Administrative Assistant"
               companyName="Alqemam - QTech"
-              companyLogo="/public/company-5-logo-white-bg.png"
+              companyLogo="/company-5-logo-white-bg.png"
               location="Mansoura, Egypt"
               careerLevel="Entry"
               datePostedInDays={7}
@@ -32,7 +32,7 @@ export default function ExplorePage() {
             <JobCard
               title="HR Administrative Assistant"
               companyName="Alqemam - QTech"
-              companyLogo="/public/company-5-logo-white-bg.png"
+              companyLogo="/company-5-logo-white-bg.png"
               location="Mansoura, Egypt"
               careerLevel="Entry"
               datePostedInDays={7}

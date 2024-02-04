@@ -27,26 +27,34 @@ export default function JobCard({
 "
     >
       <div className="font-light text-slate-600 text-left space-y-1">
-        <h3 className="font-semibold text-[0.73rem] text-[var(--color-brand-primary)]" >{title}</h3>
-        <p >
-          <span className="font-medium text-black">
-            {companyName} -{" "}
-            </span>
-            {location}
+        <h3 className="font-semibold text-[0.73rem] text-[var(--color-brand-primary)]">
+          {title}
+        </h3>
+        <p>
+          <span className="font-medium text-black">{companyName} - </span>
+          {location}
         </p>
         <p>
-          {careerLevel} Level. {yearsOfExperience}. Yrs of Exp. 
+          {careerLevel} Level. {yearsOfExperience}. Yrs of Exp.
           <span className="text-blue-400"> {jobType}</span>
         </p>
         <p className="text-stone-400 font-light">in {datePostedInDays} days</p>
 
         <div className="m-0 pt-5 flex items-center gap-4">
-          <Button type="secondary" to="/job-details" className="flex items-center gap-1 px-0 sm:px-0 md:px-0">
-            <img className="h-3 w-3" src="/public/save-icon.png" alt="save-icon" />
+          <Button
+            type="secondary"
+            to="/job-details"
+            className="flex items-center gap-1 px-0 sm:px-0 md:px-0"
+          >
+            <img className="h-3 w-3" src="/save-icon.png" alt="save-icon" />
             <span>Save</span>
           </Button>
-          <Button type="secondary" to="/job-details" className="flex items-center gap-1 px-0 sm:px-0 md:px-0">
-            <img className="h-3 w-3 " src="/public/share-icon.png" alt="save-icon" />
+          <Button
+            type="secondary"
+            to="/job-details"
+            className="flex items-center gap-1 px-0 sm:px-0 md:px-0"
+          >
+            <img className="h-3 w-3 " src="/share-icon.png" alt="save-icon" />
             <span>Share</span>
           </Button>
         </div>

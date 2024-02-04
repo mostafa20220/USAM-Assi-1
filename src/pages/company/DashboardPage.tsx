@@ -83,7 +83,7 @@ export default function DashboardPage() {
             className="h-fit px-1 sm:pb-1 sm:justify-start sm:px-3 sm:py-3  sm:rounded-full"
             title="Add Logo"
             description="Edit Profile"
-            icon="/public/add-logo-icon.png"
+            icon="/add-logo-icon.png"
           />
         </section>
       </main>

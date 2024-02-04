@@ -98,7 +98,7 @@ export default function Header({ type = "main" }: Readonly<HeaderProps>) {
                   (UserName)((CompanyName)){" "}
                   <img
                     className="absolute h-2 right-0 top-0.5 sm:top-1 "
-                    src="/public/down-icon.png"
+                    src="/down-icon.png"
                     alt="down-icon"
                   />
                 </div>
@@ -144,13 +144,13 @@ export default function Header({ type = "main" }: Readonly<HeaderProps>) {
                 <div className="flex items-center content-center relative pr-4 sm:pr-2">
                   <img
                     className="h-5 pr-0.5 sm:pr-2 w-auto"
-                    src="/public/avatar-logo.png"
+                    src="/avatar-logo.png"
                     alt=""
                   />
 
                   <img
                     className="absolute h-2 w-2 right-0 top-1.5 sm:top-1 "
-                    src="/public/down-icon.png"
+                    src="/down-icon.png"
                     alt="down-icon"
                   />
                 </div>
